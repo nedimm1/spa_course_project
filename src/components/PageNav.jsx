@@ -1,4 +1,5 @@
 import { NavLink } from "react-router-dom";
+import "./PageNav.module.css"; // Assuming you want to style it with a separate CSS file
 
 const PageNav = () => {
   return (
