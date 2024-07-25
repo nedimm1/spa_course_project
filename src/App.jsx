@@ -12,7 +12,7 @@ function App() {
           <Route path="/" element={<HomePage />} />
           <Route path="/pricing" element={<Pricing />} />
           <Route path="/product" element={<Product />}>
-            <Route path="product1" element={<p>Product 1</p>} />
+            <Route index element={<p>Product 1</p>} />
             <Route path="product2" element={<p>Product 2</p>} />
             <Route path="product3" element={<p>Product 3</p>} />
           </Route>
